@@ -1,0 +1,218 @@
+[
+  {
+    "id": "aries",
+    "name": "Áries",
+    "symbol": "♈",
+    "element": "fire",
+    "modality": "cardinal",
+    "planet": "Marte",
+    "dateRange": { "start": [3, 21], "end": [4, 19] },
+    "traits": {
+      "positive": ["Corajoso", "Determinado", "Entusiasta", "Confiante", "Ousado"],
+      "challenges": ["Impaciente", "Irritável", "Competitivo", "Teimoso", "Agressivo"],
+      "description": "Áries é o primeiro signo do zodíaco, representando o início de tudo. Nativos de Áries são conhecidos por sua energia vibrante e pioneira."
+    },
+    "colors": ["Vermelho", "Branco"],
+    "luckyDay": "Terça-feira",
+    "compatibleWith": ["leo", "sagittarius"],
+    "incompatibleWith": ["cancer", "capricornus"]
+  },
+  {
+    "id": "taurus",
+    "name": "Touro",
+    "symbol": "♉",
+    "element": "earth",
+    "modality": "fixed",
+    "planet": "Vênus",
+    "dateRange": { "start": [4, 20], "end": [5, 20] },
+    "traits": {
+      "positive": ["Confiável", "Paciente", "Prático", "Leal", "Persistente"],
+      "challenges": ["Teimoso", "Possessivo", "Resistente a mudanças", "Inveja", "Luxurioso"],
+      "description": "Touro é um signo de Terra, conhecido por sua estabilidade e apreço pelo conforto e beleza."
+    },
+    "colors": ["Verde", "Rosa"],
+    "luckyDay": "Sexta-feira",
+    "compatibleWith": ["virgo", "capricornus"],
+    "incompatibleWith": ["leo", "aquarius"]
+  },
+  {
+    "id": "gemini",
+    "name": "Gêmeos",
+    "symbol": "♊",
+    "element": "air",
+    "modality": "mutable",
+    "planet": "Mercúrio",
+    "dateRange": { "start": [5, 21], "end": [6, 20] },
+    "traits": {
+      "positive": ["Curioso", "Versátil", "Comunicativo", "Inteligente", "Adaptável"],
+      "challenges": ["Inconsistente", "Superficial", "Nervoso", "Indeciso", "Curioso demais"],
+      "description": "Gêmeos é um signo de Ar, conhecido por sua mente brilhante e comunicação fluida."
+    },
+    "colors": ["Amarelo", "Azul Claro"],
+    "luckyDay": "Quarta-feira",
+    "compatibleWith": ["libra", "aquarius"],
+    "incompatibleWith": ["virgo", "pisces"]
+  },
+  {
+    "id": "cancer",
+    "name": "Câncer",
+    "symbol": "♋",
+    "element": "water",
+    "modality": "cardinal",
+    "planet": "Lua",
+    "dateRange": { "start": [6, 21], "end": [7, 22] },
+    "traits": {
+      "positive": ["Leal", "Compassivo", "Protetor", "Intuitivo", "Criativo"],
+      "challenges": ["Melancólico", "Possessivo", "Manipulador", "Suspeito", "Inseguro"],
+      "description": "Câncer é um signo de Água, profundamente emocional e conectado ao lar e família."
+    },
+    "colors": ["Branco", "Prata"],
+    "luckyDay": "Segunda-feira",
+    "compatibleWith": ["scorpio", "pisces"],
+    "incompatibleWith": ["aries", "libra"]
+  },
+  {
+    "id": "leo",
+    "name": "Leão",
+    "symbol": "♌",
+    "element": "fire",
+    "modality": "fixed",
+    "planet": "Sol",
+    "dateRange": { "start": [7, 23], "end": [8, 22] },
+    "traits": {
+      "positive": ["Generoso", "Cálido", "Criativo", "Confiante", "Líder nato"],
+      "challenges": ["Egocêntrico", "Dramático", "Arrogante", "Superficial", "Exibido"],
+      "description": "Leão é um signo de Fogo, representando o brilho do sol e a necessidade de ser visto e reconhecido."
+    },
+    "colors": ["Dourado", "Laranja"],
+    "luckyDay": "Domingo",
+    "compatibleWith": ["aries", "sagittarius"],
+    "incompatibleWith": ["taurus", "scorpio"]
+  },
+  {
+    "id": "virgo",
+    "name": "Virgem",
+    "symbol": "♍",
+    "element": "earth",
+    "modality": "mutable",
+    "planet": "Mercúrio",
+    "dateRange": { "start": [8, 23], "end": [9, 22] },
+    "traits": {
+      "positive": ["Analítico", "Prático", "Trabalhador", "Higiênico", "Serviçal"],
+      "challenges": ["Crítico demais", "Perfeccionista", "Ansioso", "Preocupado", "Reservado"],
+      "description": "Virgem é um signo de Terra, conhecido por sua atenção meticulosa aos detalhes e desejo de perfeição."
+    },
+    "colors": ["Marrom", "Verde Escuro"],
+    "luckyDay": "Quarta-feira",
+    "compatibleWith": ["taurus", "capricornus"],
+    "incompatibleWith": ["gemini", "pisces"]
+  },
+  {
+    "id": "libra",
+    "name": "Libra",
+    "symbol": "♎",
+    "element": "air",
+    "modality": "cardinal",
+    "planet": "Vênus",
+    "dateRange": { "start": [9, 23], "end": [10, 22] },
+    "traits": {
+      "positive": ["Diplomático", "Gracioso", "Social", "Justo", "Romântico"],
+      "challenges": ["Indeciso", "Evita confrontos", "Superficial", "Dependente", "Manipulador"],
+      "description": "Libra é um signo de Ar, representando equilíbrio, harmonia e relacionamentos."
+    },
+    "colors": ["Rosa", "Azul"],
+    "luckyDay": "Sexta-feira",
+    "compatibleWith": ["gemini", "aquarius"],
+    "incompatibleWith": ["cancer", "capricornus"]
+  },
+  {
+    "id": "scorpio",
+    "name": "Escorpião",
+    "symbol": "♏",
+    "element": "water",
+    "modality": "fixed",
+    "planet": "Plutão",
+    "dateRange": { "start": [10, 23], "end": [11, 21] },
+    "traits": {
+      "positive": ["Intenso", "Passionado", "Leal", "Investigativo", "Transformador"],
+      "challenges": ["Ciumento", "Vingativo", "Obsessivo", "Secreto", "Manipulador"],
+      "description": "Escorpião é um signo de Água, conhecido por sua profundidade emocional e intensidade."
+    },
+    "colors": ["Preto", "Vermelho Escuro"],
+    "luckyDay": "Terça-feira",
+    "compatibleWith": ["cancer", "pisces"],
+    "incompatibleWith": ["leo", "aquarius"]
+  },
+  {
+    "id": "sagittarius",
+    "name": "Sagitário",
+    "symbol": "♐",
+    "element": "fire",
+    "modality": "mutable",
+    "planet": "Júpiter",
+    "dateRange": { "start": [11, 22], "end": [12, 21] },
+    "traits": {
+      "positive": ["Otimista", "Aventureiro", "Honesto", "Filosófico", "Independente"],
+      "challenges": ["Imprudente", "Impaciente", "Irônico", "Superficial", "Irresponsável"],
+      "description": "Sagitário é um signo de Fogo, representando busca por conhecimento e liberdade."
+    },
+    "colors": ["Azul", "Roxo"],
+    "luckyDay": "Quinta-feira",
+    "compatibleWith": ["aries", "leo"],
+    "incompatibleWith": ["virgo", "pisces"]
+  },
+  {
+    "id": "capricornus",
+    "name": "Capricórnio",
+    "symbol": "♑",
+    "element": "earth",
+    "modality": "cardinal",
+    "planet": "Saturno",
+    "dateRange": { "start": [12, 22], "end": [1, 19] },
+    "traits": {
+      "positive": ["Disciplinado", "Ambicioso", "Responsável", "Paciente", "Prático"],
+      "challenges": ["Pessimista", "Frio", "Workaholic", "Rígido", "Sombrio"],
+      "description": "Capricórnio é um signo de Terra, representando ambição, disciplina e alcançar objetivos."
+    },
+    "colors": ["Preto", "Marrom"],
+    "luckyDay": "Sábado",
+    "compatibleWith": ["taurus", "virgo"],
+    "incompatibleWith": ["aries", "libra"]
+  },
+  {
+    "id": "aquarius",
+    "name": "Aquário",
+    "symbol": "♒",
+    "element": "air",
+    "modality": "fixed",
+    "planet": "Urano",
+    "dateRange": { "start": [1, 20], "end": [2, 18] },
+    "traits": {
+      "positive": ["Original", "Humanitário", "Intelectual", "Rebelde", "Progressista"],
+      "challenges": ["Impassível", "Errático", "Rebelde", "Frio", "Inconsistente"],
+      "description": "Aquário é um signo de Ar, conhecido por sua mente única e espírito humanitário."
+    },
+    "colors": ["Azul Elétrico", "Prata"],
+    "luckyDay": "Sábado",
+    "compatibleWith": ["gemini", "libra"],
+    "incompatibleWith": ["taurus", "scorpio"]
+  },
+  {
+    "id": "pisces",
+    "name": "Peixes",
+    "symbol": "♓",
+    "element": "water",
+    "modality": "mutable",
+    "planet": "Netuno",
+    "dateRange": { "start": [2, 19], "end": [3, 20] },
+    "traits": {
+      "positive": ["Compassivo", "Artístico", "Intuitivo", "Espiritual", "Gentil"],
+      "challenges": ["Iludido", "Passivo", "Escapista", "Confuso", "Vulnerável"],
+      "description": "Peixes é um signo de Água, representando conexão espiritual e empatia profunda."
+    },
+    "colors": ["Verde-mar", "Lilás"],
+    "luckyDay": "Quinta-feira",
+    "compatibleWith": ["cancer", "scorpio"],
+    "incompatibleWith": ["gemini", "sagittarius"]
+  }
+]
